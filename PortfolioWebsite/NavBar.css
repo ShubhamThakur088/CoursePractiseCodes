@@ -1,0 +1,125 @@
+ul.UnorganisedLi{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-transform: uppercase;
+    text-indent: 1rem;
+    font-family: 'Pacifico', cursive;    
+}
+
+.NavBar{
+    background-color: maroon;
+    width:85.4rem;
+    height: 4rem;    
+}
+.Margin{
+    margin: 0;
+}
+
+#BackGround{
+    background-color: sandybrown;
+}
+
+li{
+    padding-top: 0.95rem;
+}
+
+.MyInfo{
+    text-align: center;    
+    font-family: 'Permanent Marker', cursive;
+    text-transform: uppercase;
+    font-size: 4rem;
+    margin-top: 6rem;
+}
+
+.MyHobby{
+    text-align: center;    
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin-top: 0.65rem;
+}
+
+#Photo-Shot
+{
+    color: white;  
+   
+}
+
+#MyContact{
+    color:white;   
+}
+
+#AboutMe{
+    color:white;
+   
+}
+
+#Header5{
+   font-family: 'Satisfy', cursive;
+   text-align: center;
+}
+
+#ImageSize1{
+    width:15.8rem;
+    height: 18rem;
+}
+#ImageSize2{
+    width:15.8rem;
+    height: 11.77rem;
+}
+#ImageSize3{
+    width:15.8rem;
+    height: 18rem;
+}
+#ImageSize4{
+    width:15.8rem;
+    height: 12.1rem;
+}
+
+.Cards{
+   display: flex;
+   margin-left: 2.5em;
+   margin-top: 8rem;
+   color:whitesmoke   
+}
+
+#ImageSize1{
+    height:12rem;
+}
+
+#CardColour{
+    background-color: maroon;
+    margin-left: 2.6rem;
+}
+
+footer{
+    display:flex;
+    justify-content: space-evenly;
+    padding:1.25em 0;
+    border-top: 4px solid teal; 
+    font-family: 'Cookie', cursive;
+    font-size:1.5rem;
+}
+
+.Section{
+    font-family: 'Rampart One', cursive;
+    font-size: 4.75em;
+    text-align: center;
+}
+
+.ContactMeans{
+    font-size: 1.4rem;
+    padding: 0.75em 1.5em;
+    transition: transform 0.2s ease-out;
+    transform: translateY(0);
+    color:black;
+    
+}
+.Contact:hover {
+  transform: translateY(10px);
+}
+
+
+
