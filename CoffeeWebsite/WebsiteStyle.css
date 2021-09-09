@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    scroll-behavior:smooth;
+}
+
+:root{
+    --blue:#9abec1;
+    --black:#333030;
+    --red:#e92424;
+    --whitesmoke:#F5F5F5;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding:1.5rem 0;
+    align-items: center;/*The align-items property specifies the default alignment for items inside the flexible container.*/
+    color:brown;
+    position:absolute;
+    top:0;
+    z-index: 2;
+    width:80%;    
+}
+
+.logo{
+    display: flex;
+    align-items:center;
+    text-align:center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.logo .dot{
+    display: inline-block;
+    height:0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    margin: 0.2rem;
+}
+
+.dot{
+    font-size:1.5rem;    
+}
+
+.nav-links{
+    display: flex;
+}
+
+.nav-links a{
+    text-decoration: none;
+    margin-right: 1rem;
+    color:brown;
+}
+
+.nav-links a:last-child{
+    margin:0rem;
+}
+
+a:hover{
+    color:var(--blue);
+}
+
+.nav-links a::after{
+    content:"";
+    display: block;
+    height: 2px;
+    background-color: var(--blue);
+    width:0%;
+    transition: all ease-in-out 100ms;
+}
+
+.nav-links a:hover::after{
+    width: 100%;
+}
+
+::-webkit-scrollbar{
+    width: 11px;
+}
+
+::webkit-scrollbar-track{
+    background: #e4a576;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10rem;
+}
+.hero{
+    background: var(--blue);
+    padding: 5rem 10% 0rem 10%;
+    position:relative;
+    overflow: hidden;
+    color:whitesmoke;
+    display: flex;
+    align-items:center;
+    height: 100vh;
+}
+
+.Bg{
+    background: var(--whitesmoke);
+    width:50rem;
+    height: 26rem;
+    border-radius: 20rem;
+    transform: rotate(-45deg);
+    right: -7.3rem;
+    top:-7rem;
+    position:absolute;
+    z-index: 0;
+}
+
+.Bg img{
+    transform:rotate(45deg);
+    height:15rem;
+    width: 15rem;
+    margin-left: 4rem;
+    margin-top: 5.5rem;    
+    border-radius: 50%;
+}
+
+h1{
+    font-size: 2rem;
+    font-weight:500;
+}
+
+h2{
+    font-size: 1.4rem;
+}
+
+.scroll{
+    position:absolute;
+    bottom:0;
+    bottom: 2rem;
+    z-index: 2;    
+}
+
+.scroll a{
+    color: var(--black);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.scroll a:hover{
+    color: #F29718;
+}
+
+.brands{
+    min-height: 100vh;
+    padding: 7rem 10%;
+    position: relative;
+    overflow: hidden ;   
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10rem;
+    
+}
+
+.brand:last-child{
+    margin-bottom: 0;
+}
+
+.brand h2{
+    font-size: 40px;
+    color:var(--black);
+    margin-bottom: 1rem;   
+}
+
+.brand img{
+    height:15rem;   
+}
+
+.brand .img{    
+    justify-content: space-between
+}
+
+.brand img{
+    flex:1;
+}
+
+.brand .description{
+    flex:1;
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+}
+
+.brand.row-reverse .img{
+    display: flex;
+    justify-content: flex-end;
+} 
+
+footer{
+    background-color: var(--black);
+    color:whitesmoke;
+    padding: 2rem; 
+    text-align: center;
+}
+
+footer .logo{
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+footer h3{
+    color: var(--blue);
+    margin-bottom:0.5rem;
+    font-size: 1.5rem;
+}
+
+footer p{
+    width:50%;
+    margin: 0 auto 1rem auto;
+    color:whitesmoke;
+}
+
+
+
+footer .social_links{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    justify-content: center;    
+}
+
+footer .social_links a{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    background: var(--blue);
+    margin-right: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;       
+}
+
+footer .social_links a:last-child{
+    margin-right: 0;
+}
+
+footer .social_links svg{
+    color: whitesmoke;
+}
+
+footer .logo .dot{
+    padding-bottom: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    color: brown;
+}
+
+.paragraph{
+    padding-left: 1rem;
+}
+
+.Header-2{
+     padding-left: 1rem;
+}
