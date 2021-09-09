@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+body, html{
+    height:100%;
+    margin:0; /*no margin around the edges*/
+    font-size:18px;
+    font-weight:300;
+    font-family: 'Cabin', sans-serif;
+    color:#06070E;
+}
+ 
+.Img-1{
+    background: url("Parallax_Assets/afif-kusuma-ULoxoN5QMDw-unsplash.jpg");
+    min-height:100%;/*The min-height property defines the minimum height of an element.*/
+    
+}
+
+.Img-2{
+    background: url("Parallax_Assets/eugenia-clara-_QTeGT478_8-unsplash.jpg");
+    min-height:700px;;/*The min-height property defines the minimum height of an element.*/
+    
+}
+
+.Img-3{
+    background: url("Parallax_Assets/pexels-navneet-shanu-672630.jpg");
+    min-height:100%;/*The min-height property defines the minimum height of an element.*/
+    
+}
+.Img-1,.Img-2,.Img-3{
+    position:relative;
+    opacity:0.70;/*The opacity property can take a value from 0.0 - 1.0. The lower value, the more transparent*/
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;/*The background-repeat property sets  if a background image will be repeated*/
+    /*either horizontally or vertically*/
+    background-attachment: fixed;/*If the value is set to fixed, the background image will not move 
+                                 while scrolling in the browser*/
+}
+
+.Section{
+    text-align: center;
+    padding:20px 80px;/*80 on lefT & right and 50 on top & bottom*/
+}
+
+.Section-bg{
+    background-color: #ccd8d7;
+    color: #302c39;    
+}
+
+.text-info{
+    position:absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color:#000;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;/*text-transforms text either to uppercase or lowercase or
+                              it can also covert only the first letter to uppercase*/
+}
+
+ 
