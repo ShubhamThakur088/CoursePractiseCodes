@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
+*{
+    font-family: 'Gochi Hand', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+  transition: background 0.55s ease;  
+  justify-content: center;
+}
+
+h1{
+    font-size: 2.7rem;
+    text-align: center;
+}
+
+.score{
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 1em 0;
+}
+
+.Btn-Container{
+    text-align: center;  
+    margin-top:2rem;    
+}
+
+.Begin{
+    width: 70px;
+    font-size: 1.3rem;
+    border-radius: 8px;
+}
+
+.Begin:hover{
+    background-color:inherit;/*This inherit value helps adopt to background color*/
+}
+
+.Restore:hover{
+    background-color:inherit;/*This inherit value helps adopt to background color*/
+}
+
+.Restore{
+    width: 70px;
+    font-size: 1.3rem;
+    border-radius: 8px;
+}
+
+.hole{
+    position: relative;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+}
+
+.Holes-Container{
+    display:grid;
+    grid-template-columns:  auto auto auto ;/*3-columns each equal in length*/
+    grid-gap:1em;
+    justify-items: center;
+}
+
+.mole{
+    position: absolute;
+    z-index:1;
+    height: 70px;
+    border-radius: 50%;
+    width: 70px;
+    background: transparent;
+    bottom: 6px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation:appear 0.3s linear;
+    pointer-events:none;
+}
+
+@keyframes appear{
+    from{
+        bottom:-60px;
+    }
+    to{
+        bottom:0;
+    }
+}
+
+.funny-animation{
+    height: 180px;
+    width: 150px;
+    margin-top: -40px;
+    margin-right: -50px;
+}
