@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Weather-Now</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="Styles.css">
+       
+    </head>
+    <body>
+        <h2>Weather Now</h2>
+      
+        <div class="City-search">
+            <label id="Label-Tag">Search City</label>
+            <input type="text" name="City-Name" id="Input-Box">
+            <button id="trigger-search" onclick="weatherData()">Get weather!</button>
+        </div>       
+        
+        <div class="card Customise-Card">
+            <img src="" class="card-img-top" alt="">
+            <div class="card-body">
+                
+                <div>
+                   
+                </div>                 
+                <div>
+                    <div id="Location">
+                        <h4 id="place-name"></h4><h4 id="region"></h4>
+                    </div>
+                    
+                    <h5 id="co-ordinates"></h5>
+                </div> 
+                <div id="status-container">
+                     <h5 id="cur-temp"></h5>
+                    <img id="weather-icon" style="widht:1.5rem;height: 5rem;"/>
+                </div>
+            </div>
+           
+        </div>
+        
+        <script type="text/javascript" src="weatherScript.js"></script>
+    </body>
+</html>

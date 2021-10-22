@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+body{
+    padding:0;
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    background: #d22222    
+}
+
+h2{
+    text-align:center;
+    font-size:3rem;
+    margin-top: 20px;   
+}
+
+.City-search{
+    position: absolute;
+    left: 530px;
+    top:120px;
+    align-content: center;
+}
+
+#Input-Box{
+    width: 14rem;
+    height: 1.5rem;
+    border-radius: 8px;
+}
+
+#Label-Tag{
+    font-size: 1.15rem;
+}
+
+.Customise-Card{
+    width: 27rem;
+    height:14rem;
+    position: absolute;
+    left: 502px;
+    top:200px;
+    background-color: whitesmoke;
+}
+
+#trigger-search{
+    border-radius: 8px;
+}
+
+#trigger-search:hover{
+    background-color: bisque;
+}
+
+#status-container{
+    display: flex;
+    position: absolute;
+    bottom: 3rem;
+    right: 11rem;
+}
+
+#cur-temp{
+    position: absolute;
+    bottom: 8px;
+    right: 4rem;
+    font-size: 2.4rem;
+}
+
+#Location{
+    display: flex;
+    word-spacing: 13px;
+}
